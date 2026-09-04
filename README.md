@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+Cloudflare：<https://pre-tax-salary-calculator.xiaosang.cc/> · GitHub Pages：<https://holynova.github.io/pre_tax_salary_calculator/>
+
 
 ![Screenshot](./screenshot.png)
 
