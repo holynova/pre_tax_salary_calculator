@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">pre_tax_salary_calculator</title>
+  <desc id="desc">税前工资计算器项目仓库。**当前默认分支的应用仍是 React + TypeScript + Vite 初始化示例**：页面展示 React / Vite 标志和点击计数器，尚未包含工资反推计算逻辑。</desc>
+  <rect width="1200" height="360" rx="28" fill="#f2f0ea"/>
+  <path d="M0 310C250 280 410 342 650 300s350-18 550 20v40H0Z" fill="#69869c" opacity=".12"/>
+  <text x="58" y="52" fill="#c9873a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" letter-spacing="2.5">SALARY · DEDUCTIONS · CALCULATOR</text>
+  <path d="M58 70H710" stroke="#69869c" stroke-width="2" opacity=".6"/>
+  <text x="58" y="126" fill="#25282c" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="52" font-weight="700">pre_tax_salary_calculator</text>
+  <text x="60" y="190" fill="#69869c" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21">税前工资计算器项目仓库。**当前默认分支的应用仍是 React + TypeScript</text><text x="60" y="220" fill="#69869c" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="21">+ Vite 初始化示例**：页面展示 React / Vite…</text>
+    <g transform="translate(60 274)"><rect width="250" height="34" rx="17" fill="#c9873a"/><text x="18" y="23" fill="#f2f0ea" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">PROJECT-NATIVE README</text></g>
+  <g transform="translate(816 52)"><rect width="326" height="232" rx="16" fill="#25282c"/><path d="M24 40h278M128 40v174M230 40v174" stroke="#69869c" stroke-width="3"/><path d="M24 70h286" stroke="#69869c" stroke-width="3" opacity=".8"/><path d="M24 104h286" stroke="#69869c" stroke-width="3" opacity=".8"/><path d="M24 138h286" stroke="#69869c" stroke-width="3" opacity=".8"/><path d="M24 172h286" stroke="#69869c" stroke-width="3" opacity=".8"/><path d="M24 206h286" stroke="#69869c" stroke-width="3" opacity=".8"/><rect x="30" y="79" width="84" height="15" rx="7" fill="#c9873a"/><rect x="138" y="113" width="72" height="15" rx="7" fill="#c9873a" opacity=".8"/></g>
+</svg>

@@ -2,6 +2,11 @@
 
 税前工资计算器项目仓库。**当前默认分支的应用仍是 React + TypeScript + Vite 初始化示例**：页面展示 React / Vite 标志和点击计数器，尚未包含工资反推计算逻辑。
 
+<p align="center">
+  <img src="assets/readme/hero.svg" width="100%" alt="pre_tax_salary_calculator: 税前工资计算器项目仓库。**当前默认分支的应用仍是 React + TypeScript + Vite 初始化示例**：页面展示 React / Vite 标志和点击计数器，尚未包含工资反推计算逻辑。">
+</p>
+
+
 ## 当前代码与预览
 
 - [src/App.tsx](src/App.tsx)：当前计数器示例。
