@@ -1,54 +1,28 @@
-# React + TypeScript + Vite
+# pre_tax_salary_calculator
 
+税前工资计算器项目仓库。**当前默认分支的应用仍是 React + TypeScript + Vite 初始化示例**：页面展示 React / Vite 标志和点击计数器，尚未包含工资反推计算逻辑。
 
-![Screenshot](./screenshot.png)
+## 当前代码与预览
 
+- [src/App.tsx](src/App.tsx)：当前计数器示例。
+- [src/main.tsx](src/main.tsx)：React 入口。
+- [screenshot.png](screenshot.png)：仓库保留的项目截图，不能据此判断当前源码已经实现计算器。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 本地运行
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+打开终端输出的地址，当前预期看到的是 Vite 示例页。
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 检查与构建
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm run lint
+npm run build
+npm run preview
 ```
+
+`build` 先进行 TypeScript 检查，再生成生产资源；`preview` 启动本地构建预览。工资计算功能需要另行实现，README 不将初始化示例描述为可用的计算器。
