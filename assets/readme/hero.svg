@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">税前工资计算器 Pre-Tax Salary Calculator — 税前 ⇄ 到手双向换算</title>
+  <desc id="desc">浅绿纸面标题：税前工资计算器，副标题税前 ⇄ 到手，双向换算；右侧是一张工资条示意卡：税前工资 20000 元，扣五险一金与个人所得税后，到手工资 17610 元（示例数字）。</desc>
+
+  <rect width="1200" height="360" rx="26" fill="#f2f6f2"/>
+
+  <g id="deco" opacity="0.5">
+    <circle cx="690" cy="60" r="46" fill="#dcead9"/>
+    <circle cx="726" cy="318" r="30" fill="#e6efdf"/>
+    <circle cx="60" cy="330" r="18" fill="#dcead9"/>
+  </g>
+
+  <g id="title-block" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="56" y="62" font-size="19" letter-spacing="3" fill="#3d5a46">工资换算 · SALARY CALCULATOR</text>
+    <text x="56" y="130" font-size="60" font-weight="700" fill="#12211c">税前工资计算器</text>
+    <text x="56" y="170" font-size="23" fill="#0b6b47">PRE-TAX SALARY CALCULATOR — 税前 ⇄ 到手</text>
+    <text x="56" y="206" font-size="19" fill="#43564a">正向与反向双向换算，脚手架已就绪，计算功能开发中。</text>
+    <g id="chips" font-size="18" fill="#eaf4ee" text-anchor="middle">
+      <g><rect x="56" y="238" width="150" height="36" rx="18" fill="#1c4a38"/><text x="131" y="262">React 18 + TS</text></g>
+      <g><rect x="218" y="238" width="96" height="36" rx="18" fill="#1c4a38"/><text x="266" y="262">Vite 6</text></g>
+      <g><rect x="326" y="238" width="168" height="36" rx="18" fill="#1c4a38"/><text x="410" y="262">双向换算（计划中）</text></g>
+    </g>
+  </g>
+
+  <g id="payslip" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="796" y="44" width="348" height="272" rx="16" fill="#ffffff" stroke="#cfdccd" stroke-width="1.5"/>
+    <text x="824" y="80" font-size="18" fill="#5c6b62">工资条 · 换算示意（示例）</text>
+    <text x="824" y="124" font-size="20" fill="#33463c">税前工资</text>
+    <text x="1116" y="124" font-size="22" font-weight="700" fill="#12211c" text-anchor="end">¥ 20,000</text>
+    <line x1="824" y1="142" x2="1116" y2="142" stroke="#e3eae4" stroke-width="1.5"/>
+    <text x="824" y="178" font-size="20" fill="#33463c">五险一金</text>
+    <text x="1116" y="178" font-size="20" fill="#a63a2a" text-anchor="end">− ¥ 2,100</text>
+    <text x="824" y="212" font-size="20" fill="#33463c">个人所得税</text>
+    <text x="1116" y="212" font-size="20" fill="#a63a2a" text-anchor="end">− ¥ 290</text>
+    <line x1="824" y1="230" x2="1116" y2="230" stroke="#e3eae4" stroke-width="1.5"/>
+    <g id="net-row">
+      <rect x="824" y="244" width="292" height="52" rx="10" fill="#dff2e6"/>
+      <text x="840" y="277" font-size="20" font-weight="700" fill="#0b5c39">到手工资</text>
+      <text x="1100" y="277" font-size="22" font-weight="700" fill="#0b5c39" text-anchor="end">¥ 17,610</text>
+    </g>
+  </g>
+</svg>
